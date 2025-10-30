@@ -2,7 +2,7 @@ const express = require('express')
 require('dotenv').config()
 const userroute = require('./src/routes/user.routes')
 const connectDB = require('./src/db/db')
-const itemroute = require('../src/routes/item.routes')
+const itemroute = require('./src/routes/item.routes')
 const cookieParser = require("cookie-parser");
 const cors = require('cors')
 const adminroutes = require("../src/routes/admin.routes")
